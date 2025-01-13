@@ -1,0 +1,107 @@
+:root {
+  --primary-violet: #7c4dff;
+  --primary-violet-dark: #5e35b1;
+  --primary-violet-light: #b388ff;
+  --secondary-violet: #9575cd;
+  --bg-violet-light: #f5f3ff;
+}
+
+/* navbar */
+.navbar-custom {
+  background-color: var(--primary-violet-dark) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* untuk kartu */
+.card {
+  border: none;
+  box-shadow: 0 0 15px rgba(124, 77, 255, 0.1);
+}
+
+.card-header {
+  background-color: var(--primary-violet);
+  color: white;
+  border-bottom: none;
+}
+
+/* untuk tombol bosq */
+.btn-primary {
+  background-color: var(--primary-violet);
+  border-color: var(--primary-violet);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-violet-dark);
+  border-color: var(--primary-violet-dark);
+}
+
+.btn-outline-primary {
+  color: var(--primary-violet);
+  border-color: var(--primary-violet);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary-violet);
+  border-color: var(--primary-violet);
+}
+
+/* Table Custom Style */
+.table-hover tbody tr:hover {
+  background-color: var(--bg-violet-light);
+}
+
+/* Form Control Custom Style */
+.form-control:focus {
+  border-color: var(--primary-violet-light);
+  box-shadow: 0 0 0 0.25rem rgba(124, 77, 255, 0.25);
+}
+
+/* Alert Custom Style */
+.alert-success {
+  background-color: #e8f5e9;
+  border-color: #a5d6a7;
+  color: #2e7d32;
+}
+
+.alert-danger {
+  background-color: #ffebee;
+  border-color: #ffcdd2;
+  color: #c62828;
+}
+
+/* Badge Custom Style */
+.badge-primary {
+  background-color: var(--primary-violet);
+}
+
+/* Custom Background */
+.bg-violet-light {
+  background-color: var(--bg-violet-light);
+}
+
+/* Login Form Custom Style */
+.login-container {
+  background: linear-gradient(
+    135deg,
+    var(--primary-violet-light) 0%,
+    var(--primary-violet) 100%
+  );
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px rgba(124, 77, 255, 0.1);
+}
+
+/* Dashboard Stats */
+.stats-card {
+  border-left: 4px solid var(--primary-violet);
+  transition: transform 0.2s;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+}

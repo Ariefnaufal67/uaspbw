@@ -1,0 +1,118 @@
+:root {
+  --primary-pink: #ff69b4;
+  --secondary-pink: #ffb6c1;
+  --dark-pink: #db7093;
+  --light-pink: #ffc0cb;
+  --very-light-pink: #ffe4e1;
+  --text-dark: #4a4a4a;
+  --text-light: #ffffff;
+}
+
+body {
+  background-color: var(--very-light-pink);
+  color: var(--text-dark);
+}
+
+.navbar-dark {
+  background-color: var(--dark-pink) !important;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: var(--text-light) !important;
+}
+
+.navbar-dark .nav-link:hover {
+  color: var(--very-light-pink) !important;
+}
+
+.card {
+  border-color: var(--secondary-pink);
+  box-shadow: 0 2px 4px rgba(219, 112, 147, 0.1);
+}
+
+.card-header {
+  background-color: var(--secondary-pink);
+  color: var(--text-dark);
+}
+
+.btn-primary {
+  background-color: var(--primary-pink);
+  border-color: var(--primary-pink);
+  color: var(--text-light);
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-pink);
+  border-color: var(--dark-pink);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-pink);
+  border-color: var(--secondary-pink);
+  color: var(--text-dark);
+}
+
+.btn-secondary:hover {
+  background-color: var(--dark-pink);
+  border-color: var(--dark-pink);
+  color: var(--text-light);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--very-light-pink);
+}
+
+.table {
+  border-color: var(--secondary-pink);
+}
+
+.form-control:focus {
+  border-color: var(--primary-pink);
+  box-shadow: 0 0 0 0.2rem rgba(255, 105, 180, 0.25);
+}
+
+/* costumisasi pada notif alert/peringatan */
+.alert-danger {
+  background-color: #ffe4e1;
+  border-color: #ffb6c1;
+  color: #d63384;
+}
+
+/* padding */
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* warna link */
+a {
+  color: var(--dark-pink);
+}
+
+a:hover {
+  color: var(--primary-pink);
+}
+
+/* warna pada tombol :D */
+.btn-danger {
+  background-color: #ff1493;
+  border-color: #ff1493;
+}
+
+.btn-danger:hover {
+  background-color: #c71585;
+  border-color: #c71585;
+}
+
+.btn-warning {
+  background-color: #ffb6c1;
+  border-color: #ffb6c1;
+  color: var(--text-dark);
+}
+
+.btn-warning:hover {
+  background-color: #db7093;
+  border-color: #db7093;
+  color: var(--text-light);
+}
